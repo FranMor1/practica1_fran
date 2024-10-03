@@ -1,9 +1,29 @@
-@media(width <=37.5rem){
+@media(max-width: 37.5rem){
+header .contacto ul li span {
+        display: none;
+        }
 
 }
-@media(width <=48rem){
-
+@media(max-width: 48rem){
+header .contacto ul li span {
+        display: none;
+    }
 }
-@media(width <=62.75rem) {
+@media(min-width: 48.0625rem) {
+
+header .contacto ul li a{
+        color: white;
+        text-decoration: none;
+
+        i {
+            font-size: 12px;
+        }
+
+        span {
+                font-family: var(--primary-font);
+                font-size: 10px;
+                margin-left: -0.1875rem;
+            }
+    }
 
 }
