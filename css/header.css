@@ -8,7 +8,6 @@ header .contacto{
     ul{
         display: flex;
         justify-content: space-evenly;
-        max-width: 1200px;
         margin: 0 auto;
 
         li {
@@ -22,3 +21,60 @@ header .contacto{
         }
     }
 }
+header .container {
+    position: sticky;
+    width: 100%;
+
+    img {
+        width: 6.25rem;
+        margin: 1.25rem 1.25rem;
+    }
+
+    .hamburger {
+        cursor: pointer;
+        width: 3.125rem;
+        margin-top: 0.625rem;
+
+    div {
+        width: 1.875rem;
+        height: 0.125rem;
+        background-color: var(--tertiary-color);
+        margin: 0.625rem 0;
+        }
+    }
+} 
+.container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+nav {
+    width: 100%;
+    padding: 1.5rem 0;
+
+    ul {
+        list-style: none;
+        text-align: center;
+        a {
+            display: inline-block;
+            color: var(--tertiary-color);
+            text-decoration: none;
+            text-align: center;
+            width: 90%;
+            font-family: var(--primary-font);
+            margin-bottom: 0.625rem;
+            padding: 1.25rem 1.25rem;
+            border-bottom: 0.0625rem solid var(--tertiary-color);
+            transition: 0.5s;
+            
+            
+
+            &:hover {
+                color: var(--primary-color);
+                }
+            }
+        li:nth-child(4) a {
+        border-bottom: none;
+}
+        }
+    }

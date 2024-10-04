@@ -1,8 +1,8 @@
 :root {
     --primary-color: #fa573a;
     --secondary-color: #21242e;
+    --tertiary-color: rgb(159, 159, 159);
     --primary-font: 'Montserrat', sans-serif;
     --secondary-font: "Handlee", cursive;
-    --text-color: #666666;
     --gap: 1rem;
 }
