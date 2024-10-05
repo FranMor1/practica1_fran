@@ -1,32 +1,37 @@
-header .contacto{
-    padding: var(--gap);
+header {
+
+
+    .contacto{
+    padding-bottom: var(--gap);
+    padding-top: var(--gap);
     background-color: var(--secondary-color);
-    position: sticky;
     top: 0rem;
     width: 100%;
 
     ul{
         display: flex;
-        justify-content: space-evenly;
+        justify-content: space-between;
         margin: 0 auto;
+        max-width: 1200px;
 
         li {
             list-style: none;
-            padding: 0 2.8125rem;
 
             i {
                 color: var(--primary-color);
-                font-size: 1.5625rem;
+                font-size: 30px;
+                padding: 0 50px;;
             }
         }
     }
+}
 }
 header .container {
     position: sticky;
     width: 100%;
 
     img {
-        width: 6.25rem;
+        width: 7.5rem;
         margin: 1.25rem 1.25rem;
     }
 
@@ -36,10 +41,12 @@ header .container {
         margin-top: 0.625rem;
 
     div {
-        width: 1.875rem;
+        width: 35px;
         height: 0.125rem;
         background-color: var(--tertiary-color);
-        margin: 0.625rem 0;
+        margin: 0.75rem 0rem;
+       
+        
         }
     }
 } 
@@ -62,6 +69,8 @@ nav {
             text-align: center;
             width: 90%;
             font-family: var(--primary-font);
+            font-weight: 400;
+            font-size: 18px;
             margin-bottom: 0.625rem;
             padding: 1.25rem 1.25rem;
             border-bottom: 0.0625rem solid var(--tertiary-color);

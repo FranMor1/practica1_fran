@@ -44,7 +44,9 @@ header .hamburger {
 header .container {
     
 }
-header nav {
+header {
+
+    nav {
         width: calc(100% - 12.5rem);
         padding: 0.60rem 0px;
 
@@ -62,5 +64,5 @@ header nav {
             }
         }
     }
-
+}
 }
