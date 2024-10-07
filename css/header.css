@@ -12,27 +12,27 @@ header {
         display: flex;
         justify-content: space-between;
         margin: 0 auto;
-        max-width: 1200px;
+        max-width: 1004px;
 
         li {
             list-style: none;
+            
 
             i {
                 color: var(--primary-color);
                 font-size: 30px;
-                padding: 0 50px;;
+                padding: 0;
             }
         }
     }
 }
 }
 header .container {
-    position: sticky;
-    width: 100%;
-
+    margin: 0 auto;
     img {
-        width: 7.5rem;
-        margin: 1.25rem 1.25rem;
+        width: 6rem;
+        margin-top: 15px;
+        margin-left: 20px;
     }
 
     .hamburger {
@@ -45,12 +45,11 @@ header .container {
         height: 0.125rem;
         background-color: var(--tertiary-color);
         margin: 0.75rem 0rem;
-       
         
         }
     }
 } 
-.container {
+header .container {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -70,17 +69,11 @@ nav {
             width: 90%;
             font-family: var(--primary-font);
             font-weight: 400;
-            font-size: 18px;
+            font-size: 16px;
             margin-bottom: 0.625rem;
             padding: 1.25rem 1.25rem;
             border-bottom: 0.0625rem solid var(--tertiary-color);
-            transition: 0.5s;
-            
-            
-
-            &:hover {
-                color: var(--primary-color);
-                }
+           
             }
         li:nth-child(4) a {
         border-bottom: none;
