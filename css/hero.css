@@ -1,0 +1,29 @@
+
+.hero {
+    height: 100vh;
+    background-image:url(/images/fondo.jpg);
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: multiply;
+    background-color: grey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    
+    h1 {
+        font-family: var(--secondary-font);
+        color: white;
+        font-size: 40px;
+    }
+}
+
+.boton {
+    display: inline-block;
+    padding: 10px;
+    border: 1px solid var(--primary-color);
+    text-decoration: none;
+    color: white;
+    font-family: var(--primary-font);
+    background-color: var(--primary-color);
+}

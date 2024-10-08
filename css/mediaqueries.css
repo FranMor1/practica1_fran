@@ -119,4 +119,18 @@ footer {
 }
 
 
+.boton {
+
+
+    &:hover {
+        background-color: transparent;
+        color: var(--primary-color);
+    }
+
+    &:hover i {
+        transform: translateX(5px);
+        transition: transform 0.5s;
+    }
+}
+
 }
