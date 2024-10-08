@@ -10,18 +10,46 @@
     align-items: center;
     justify-content: center;
     text-align: left;
+    padding: 0 1.8rem;
     
     h1 {
         font-family: var(--secondary-font);
         color: white;
-        font-size: 40px;
+        font-size: 2.25rem;
+    }
+    h4 {
+        font-family: var(--primary-font);
+        color: var(--primary-color);
+        font-size: 1.25rem;
+        padding: 1rem 0;
+    }
+
+    p {
+        font-family: var(--primary-font);
+        color: white;
+        font-size: 1.20rem;
+    }
+
+    ul {
+        display: flex;
+        justify-content: flex-start;
+        
+        li {
+            padding-right: 2.1875rem;
+
+            i {
+                color: white;
+                font-size: 1.875rem;
+            }
+        }
     }
 }
 
 .boton {
     display: inline-block;
-    padding: 10px;
-    border: 1px solid var(--primary-color);
+    padding: 1.125rem;
+    margin: 0.9375rem 0;
+    border: 0.0625rem solid var(--primary-color);
     text-decoration: none;
     color: white;
     font-family: var(--primary-font);
