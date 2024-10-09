@@ -1,11 +1,11 @@
 main {
-    padding-top: 40px;
+    padding-top: 2.5rem;
     section{
 
         h2{
             font-family: var(--secondary-font);
             color: black;
-            font-size: 30px;
+            font-size: 1.875rem;
             text-align: center;
             align-items: center;
 
@@ -15,15 +15,16 @@ main {
 
         }
         .lineah2 {
-            border-top: 2px solid var(--primary-color);
+            border-top: 0.125rem solid var(--primary-color);
             width: 22%;
             margin: 0 auto;
-            margin-top: 10px;
+            margin-top: 0.625rem;
             position: relative;
+            margin-bottom: 1.875rem;
             
             p.x{
             position: absolute;
-            top: -9px;
+            top: -0.5625rem;
             left: 50%;
             transform: translateX(-50%);
             font-family: var(--primary-font);
@@ -42,30 +43,29 @@ main {
             padding: 0 1.8rem;
 
         article {
-            border-bottom: solid 1.5px rgb(179, 176, 176);
-            margin-bottom: 25px;
+            border-bottom: solid 0.09375rem rgb(179, 176, 176);
+            margin-bottom: 1.5625rem;
         i {
             color: var(--primary-color);
-            font-size: 20px;
-            border: solid 1px var(--primary-color);
-            padding: 10px; 
+            font-size: 1.25rem;
+            border: solid 0.0625rem var(--primary-color);
+            padding: 0.625rem; 
         }
 
         h3 {
             font-family: var(--primary-font);
             font-weight: 700;
-            font-size: 16px;
-            padding-top: 10px;
+            font-size: 1rem;
+            padding-top: 0.625rem;
         }
 
         p {
-           font-family: var(--primary-font);
+            font-family: var(--primary-font);
             font-weight: 400;
-            font-size: 16px;
-            padding-top: 10px; 
+            font-size: 1rem;
+            padding-top: 0.625rem; 
             color: rgb(85, 85, 85);
-            letter-spacing: 1px;
-            line-height: 22px;
+            line-height: 1.25rem;
         }
 
         a {
@@ -74,11 +74,11 @@ main {
             color: var(--primary-color);
             font-family: var(--primary-font);
             font-weight: 700;
-            margin-bottom: 15px;
+            margin-bottom: 0.9375rem;
 
             i {
                 border: none;
-                font-size: 12px;
+                font-size: 0.75rem;
                 transform: scaleX(1.5);
 
             }
@@ -89,8 +89,56 @@ main {
             transform: scaleX(-1);
         }
 
-        }
+    }
         
     }
+}
+.aboutus {
+    padding: 2.1875rem 0 3.75rem 1.8rem;
+    
+.frame{
+    border: solid 0.1875rem var(--primary-color);
+    width: 95%;
+    transform: rotate(10deg);
+    position: relative;
+    margin-top: -2.375rem;
+
+img {
+    width: 100%;
+    height: auto;
+    display: block;
+    position: relative;
+    transform: rotate(-10deg);
+    
+}
+}
+.history {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 2.1875rem;
+
+    h3 {
+            font-family: var(--primary-font);
+            font-weight: 700;
+            font-size: 1rem;
+            padding-top: 3.125rem;
+        }
+    h4 {
+        font-family: var(--primary-font);
+        color: var(--primary-color);
+        font-weight: 400;
+        font-size: 0.9375rem;
+        padding-top: 0.625rem;
     }
+    p {
+        font-family: var(--primary-font);
+        font-weight: 400;
+        font-size: 1rem;
+        padding-top: 0.625rem; 
+        color: rgb(85, 85, 85);
+        line-height: 1.25rem;
+        }
+}
+}
 }
