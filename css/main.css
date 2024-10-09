@@ -38,16 +38,51 @@ main {
             align-items: center;
             justify-content: space-between;
             text-align: left;
-            width: 90%;
+            width: 100%;
             padding: 0 1.8rem;
 
         article {
-
+            border-bottom: solid 1.5px rgb(179, 176, 176);
+            margin-bottom: 25px;
         i {
             color: var(--primary-color);
             font-size: 20px;
             border: solid 1px var(--primary-color);
             padding: 10px; 
+        }
+
+        h3 {
+            font-family: var(--primary-font);
+            font-weight: 700;
+            font-size: 16px;
+            padding-top: 10px;
+        }
+
+        p {
+           font-family: var(--primary-font);
+            font-weight: 400;
+            font-size: 16px;
+            padding-top: 10px; 
+            color: rgb(85, 85, 85);
+            letter-spacing: 1px;
+            line-height: 22px;
+        }
+
+        a {
+            display: inline-block;
+            text-decoration: none;
+            color: var(--primary-color);
+            font-family: var(--primary-font);
+            font-weight: 700;
+            margin-bottom: 15px;
+
+            i {
+                border: none;
+                font-size: 12px;
+                transform: scaleX(1.5);
+
+            }
+
         }
 
         #camion {
