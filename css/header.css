@@ -73,7 +73,6 @@ nav {
             margin-bottom: 0.625rem;
             padding: 1.25rem 1.25rem;
             border-bottom: 0.0625rem solid var(--tertiary-color);
-           
             }
         li:nth-child(4) a {
         border-bottom: none;

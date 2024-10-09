@@ -1,0 +1,61 @@
+main {
+    padding-top: 40px;
+    section{
+
+        h2{
+            font-family: var(--secondary-font);
+            color: black;
+            font-size: 30px;
+            text-align: center;
+            align-items: center;
+
+            span {
+                color: var(--primary-color);
+            }
+
+        }
+        .lineah2 {
+            border-top: 2px solid var(--primary-color);
+            width: 22%;
+            margin: 0 auto;
+            margin-top: 10px;
+            position: relative;
+            
+            p.x{
+            position: absolute;
+            top: -9px;
+            left: 50%;
+            transform: translateX(-50%);
+            font-family: var(--primary-font);
+            font-weight: 700;
+            color: var(--primary-color);
+            text-align: center;
+        }
+        }
+        .articulos {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-between;
+            text-align: left;
+            width: 90%;
+            padding: 0 1.8rem;
+
+        article {
+
+        i {
+            color: var(--primary-color);
+            font-size: 20px;
+            border: solid 1px var(--primary-color);
+            padding: 10px; 
+        }
+
+        #camion {
+            transform: scaleX(-1);
+        }
+
+        }
+        
+    }
+    }
+}
