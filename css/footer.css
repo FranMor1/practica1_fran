@@ -1,7 +1,9 @@
 footer {
     width: 100%;
     background-color: var(--secondary-color);
-    position: relative;
+    position: fixed;
+    bottom: 0;
+
 
         .flecha {
         position: absolute; 
@@ -35,7 +37,4 @@ footer {
             }
         }
     }
-}
-.estatico {
-    position: fixed;
 }
