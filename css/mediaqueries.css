@@ -181,6 +181,43 @@ main {
     }
 
     }
+    .aboutus {
+    padding: 2.1875rem 0 3.75rem 1.8rem;
+    
+.history {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 2.1875rem;
+
+    article {
+        margin-left: 60px;
+        margin-top: -85px;
+        padding-right: 18px;
+    }
+    .frame{
+
+    img {
+    width: 460px;
+    }
+/* .frame2 {
+    border: solid 0.1875rem var(--primary-color);
+} */
+
+}
+.frame:hover {
+    transform: rotate(0deg);
+    transition: transform 1s ease;
+}
+/* img:hover {
+    transform: rotateY(10deg);
+} */
+
+
+    
+
+}
+}
 }
 
 }
